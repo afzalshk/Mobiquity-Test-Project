@@ -9,7 +9,7 @@ Mobiquity Test Project lets the user search photos from flickr with pagination a
 * SF Symbols
 * CoreData
 * Support iPhone and iPad using size classes 
-* Codables , Result types  and other Protocol oriented approach with Interface segregation and Single responsibility’s 
+* Codables , Result types  and other Protocol oriented approach with Interface segregation and Single responsibility√ïs 
 * Support pagination to show complete search results for Flicker Search Api 
 
 ### Third Party Library ###
@@ -19,7 +19,7 @@ Mobiquity Test Project lets the user search photos from flickr with pagination a
 A lightweight, pure-Swift library for downloading and caching images from the web
 
 ### Concept Highlighted while writing this code ###
-* Single responsibility’s
+* Single responsibility√ïs
 * Interface segregation
 * Dependency Injection
 
@@ -27,4 +27,4 @@ A lightweight, pure-Swift library for downloading and caching images from the we
 I can implements live and Auto complete search but due to time constraint i haven't attempt that.
 
 ### Thank You ###
-# Afzal
+# [Afzal](https://stackoverflow.com/story/afzalshk)
