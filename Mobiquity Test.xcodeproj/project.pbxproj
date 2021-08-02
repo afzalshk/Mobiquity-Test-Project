@@ -15,6 +15,7 @@
 		52435D962427809F00D0199A /* HistoryTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52435D952427809F00D0199A /* HistoryTableViewModel.swift */; };
 		52435D982427848700D0199A /* Date + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52435D972427848700D0199A /* Date + Extensions.swift */; };
 		52435D9A24278F0900D0199A /* StoryboardInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52435D9924278F0900D0199A /* StoryboardInitializable.swift */; };
+		5273C61626B803B60053D962 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 5273C61526B803B60053D962 /* .travis.yml */; };
 		527875042427FC430001E50E /* UIImageView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527875032427FC430001E50E /* UIImageView + Extensions.swift */; };
 		52B375AF24269AB2006A9210 /* Mobiquity_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B375AE24269AB2006A9210 /* Mobiquity_TestTests.swift */; };
 		52B375BA24269AB2006A9210 /* Mobiquity_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B375B924269AB2006A9210 /* Mobiquity_TestUITests.swift */; };
@@ -72,6 +73,7 @@
 		52435D952427809F00D0199A /* HistoryTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewModel.swift; sourceTree = "<group>"; };
 		52435D972427848700D0199A /* Date + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Extensions.swift"; sourceTree = "<group>"; };
 		52435D9924278F0900D0199A /* StoryboardInitializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInitializable.swift; sourceTree = "<group>"; };
+		5273C61526B803B60053D962 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 		527875032427FC430001E50E /* UIImageView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extensions.swift"; sourceTree = "<group>"; };
 		52B3759424269AB1006A9210 /* Mobiquity Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobiquity Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B375AA24269AB2006A9210 /* Mobiquity TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobiquity TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,6 +174,7 @@
 		52B3758B24269AB1006A9210 = {
 			isa = PBXGroup;
 			children = (
+				5273C61526B803B60053D962 /* .travis.yml */,
 				52B3759624269AB1006A9210 /* Mobiquity Test */,
 				52B375AD24269AB2006A9210 /* Mobiquity TestTests */,
 				52B375B824269AB2006A9210 /* Mobiquity TestUITests */,
@@ -507,6 +510,7 @@
 			files = (
 				52B375E124269DE6006A9210 /* Main.storyboard in Resources */,
 				52B375DE24269DE6006A9210 /* Assets.xcassets in Resources */,
+				5273C61626B803B60053D962 /* .travis.yml in Resources */,
 				52B375E024269DE6006A9210 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
