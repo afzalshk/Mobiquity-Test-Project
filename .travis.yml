@@ -5,6 +5,4 @@ xcode_project: Mobiquity Test.xcodeproj
 xcode_scheme: Mobiquity Test
 xcode_destination: platform=iOS Simulator,OS=14.5,name=iPhone 8
 before_install:
-  - gem install cocoapods
-  - gem update concurrent-ruby
-  - pod setup
+  - pod install
