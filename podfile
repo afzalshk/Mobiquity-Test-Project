@@ -1,6 +1,16 @@
 platform :ios, '11.0'
 use_frameworks!
 
+def common_pods
+  pod 'Kingfisher', '~> 5.8.1'
+end
+
 target 'Mobiquity Test' do
-pod 'Kingfisher', '~> 5.8.1'
+  common_pods
+end
+target 'Mobiquity TestTests' do
+  common_pods
+end
+target 'Mobiquity TestUITests' do
+  common_pods
 end
